@@ -117,8 +117,13 @@
               "devServerTarget": "Chat-App-Advanced:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "@angular/fire:deploy",
+          "options": {}
         }
       }
-    }},
+    }
+  },
   "defaultProject": "Chat-App-Advanced"
 }

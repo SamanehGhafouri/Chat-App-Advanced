@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "chat-advanced": {
+      "hosting": {
+        "Chat-App-Advanced": [
+          "chat-advanced"
+        ]
+      }
+    }
+  }
+}
