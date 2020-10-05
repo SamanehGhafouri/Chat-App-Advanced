@@ -4,10 +4,10 @@ import { NgModule } from '@angular/core';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import {environment} from '../environments/environment';
-import * as firebase from 'firebase';
 import {AngularFireModule} from '@angular/fire';
 import {AngularFirestoreModule} from '@angular/fire/firestore';
 import { LoginComponent } from './login/login.component';
+import {ServiceService} from './services/service.service';
 
 @NgModule({
   declarations: [
@@ -23,7 +23,7 @@ import { LoginComponent } from './login/login.component';
 
 
   ],
-  providers: [],
+  providers: [ServiceService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
